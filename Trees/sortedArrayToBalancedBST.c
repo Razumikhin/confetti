@@ -2,6 +2,7 @@
  * elements to construct a balanced binary search tree. */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 /* Type defintion for trees */
 
