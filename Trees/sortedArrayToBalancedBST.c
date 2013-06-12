@@ -19,7 +19,7 @@ Tree *sortedArrayToBalancedBST(int[], unsigned, unsigned);
 Tree *sortedArrayToBalancedBST(int src[], unsigned lo, unsigned hi) {
 	if(lo > hi)
 		return NULL;
-	int middle = lo + (hi - lo) / 2;
+	unsigned middle = lo + (hi - lo) / 2;
 	Tree *rt = malloc(sizeof(Tree));
 	rt -> key = src[mid];
 	rt -> left = sortedArrayToBalancedBST(src, lo, mid - 1);
