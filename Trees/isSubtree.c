@@ -24,8 +24,9 @@ bool areIdentical(Tree *foo, Tree *bar) {
 	else if(!foo || !bar)
 		return false;
 	else
-		return foo -> key == bar -> key && areIdentical(foo -> left, \
-		bar -> left) && areIdentical(foo -> right, bar -> right);
+		return foo -> key == bar -> key && \
+		areIdentical(foo -> left, bar -> left) && \
+		areIdentical(foo -> right, bar -> right);
 }
 
 bool isSubtree(Tree *foo, Tree *bar) {
@@ -36,6 +37,6 @@ bool isSubtree(Tree *foo, Tree *bar) {
 	else if(areIdentical(foo, bar))
 		return true;
 	else
-		return isSubtree(foo -> left, bar) || isSubtree(foo -> right, \
-		bar);
+		return isSubtree(foo -> left, bar) || \
+		isSubtree(foo -> right, bar);
 }
