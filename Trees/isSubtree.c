@@ -1,5 +1,6 @@
-/* Implement a function that accepts two trees, and returns true if the second
- * is a subtree of the first. Otherwise, the function should return false. */
+/* Implement a function that accepts a pair of binary trees, and returns true if
+ * the second is a subtree of the first. Otherwise, the function should return
+ * false. */
 
 #include <stdbool.h>
 #include <stdio.h>
