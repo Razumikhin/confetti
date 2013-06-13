@@ -1,5 +1,5 @@
-/* Implement a function that accepts a sorted array of integers and uses its
- * elements to construct a balanced binary search tree. */
+/* Implement a function that accepts a pair of binary trees, and returns true if
+ * they are isomorphic. The function should return false if they are not. */
 
 #include <stdbool.h>
 #include <stdio.h>
